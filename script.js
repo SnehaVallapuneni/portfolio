@@ -7,7 +7,6 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-// Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {
     if (!menuIcon.contains(e.target) && !navbar.contains(e.target)) {
         menuIcon.classList.remove('bx-x');

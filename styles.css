@@ -97,13 +97,13 @@ section {
 }
 
 .home-img img {
-    width: 22vw;                 /* Slightly smaller width */
+    width: 22vw;                 
     max-width: 260px;
     min-width: 180px;
-    height: auto;                /* Let height adjust proportionally */
-    border-radius: 40px;         /* Slightly rounded corners (adjust if needed) */
+    height: auto;                
+    border-radius: 40px;         
     object-fit: cover;
-    object-position: top center; /* Keep the face toward the top */
+    object-position: top center; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background: transparent;
 }
