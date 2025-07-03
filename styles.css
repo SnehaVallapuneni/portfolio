@@ -32,6 +32,20 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    text-align: left; /* Changed from center */
+    gap: 4rem; /* Added spacing between image and text */
+    flex-direction: row; /* Default, but ensure it's not column */
+    padding: 5rem 9%;
+}
+.home-content {
+    max-width: 600px;
+    text-align: left;
+}
 
 section {
     min-height: 70vh;
