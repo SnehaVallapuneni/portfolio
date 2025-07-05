@@ -107,9 +107,9 @@ section {
 .home-img img {
     width: 22vw;                 
     max-width: 560px;
-    min-width: 400px;
+    min-width: 450px;
     padding-top: 100px;
-    height: 500px;                
+    height: 550px;                
     border-radius: 40px;         
     object-fit: cover;
     object-position: top center; 
